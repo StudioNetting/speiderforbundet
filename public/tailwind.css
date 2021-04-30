@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: DIN Pro;
+		font-weight: bold;
+		src: url(/fonts/DINProBold.woff) format("woff"),
+		url(/fonts/DINProBold.woff2) format("woff2");
+	}
+	@font-face {
+		font-family: DIN Pro;
+		font-weight: 500;
+		src: url(/fonts/DINProMedium.woff) format("woff"),
+		url(/fonts/DINProMedium.woff2) format("woff2");
+	}
+	@font-face {
+		font-family: DIN Pro;
+		font-weight: normal;
+		src: url(/fonts/DINPro.woff) format("woff"),
+		url(/fonts/DINPro.woff2) format("woff2");
+	}
+
+	h1 {
+		@apply text-xl;
+	}
+
+	h2 {
+		@apply text-large;
+	}
+
+	p {
+		@apply font-serif;
+		@apply font-normal;
+		@apply text-base;
+	}
+}

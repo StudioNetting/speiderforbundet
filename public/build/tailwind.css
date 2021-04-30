@@ -414,7 +414,7 @@ ul {
  */
 
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
+  font-family: DIN Pro, DIN, arial, helvetica, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -550,7 +550,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -584,6 +584,50 @@ img,
 video {
   max-width: 100%;
   height: auto;
+}
+
+@font-face {
+  font-family: DIN Pro;
+
+  font-weight: bold;
+
+  src: url(/fonts/DINProBold.woff) format("woff"),
+		url(/fonts/DINProBold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: DIN Pro;
+
+  font-weight: 500;
+
+  src: url(/fonts/DINProMedium.woff) format("woff"),
+		url(/fonts/DINProMedium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: DIN Pro;
+
+  font-weight: normal;
+
+  src: url(/fonts/DINPro.woff) format("woff"),
+		url(/fonts/DINPro.woff2) format("woff2");
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .container {
@@ -3498,15 +3542,11 @@ video {
 }
 
 .font-sans {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: DIN Pro, DIN, arial, helvetica, sans-serif;
 }
 
 .font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Georgia, serif;
 }
 
 .font-hairline {
@@ -3705,44 +3745,24 @@ video {
   height: 100vh;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-}
-
 .text-sm {
-  font-size: 0.875rem;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .text-base {
-  font-size: 1rem;
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-large {
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .text-xl {
-  font-size: 1.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-}
-
-.text-6xl {
-  font-size: 4rem;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .leading-3 {
@@ -13372,15 +13392,11 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: DIN Pro, DIN, arial, helvetica, sans-serif;
   }
 
   .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Georgia, serif;
   }
 
   .sm\:font-hairline {
@@ -13579,44 +13595,24 @@ video {
     height: 100vh;
   }
 
-  .sm\:text-xs {
-    font-size: 0.75rem;
-  }
-
   .sm\:text-sm {
-    font-size: 0.875rem;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .sm\:text-base {
-    font-size: 1rem;
+    font-size: 18px;
+    line-height: 24px;
   }
 
-  .sm\:text-lg {
-    font-size: 1.125rem;
+  .sm\:text-large {
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .sm\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
-  }
-
-  .sm\:text-6xl {
-    font-size: 4rem;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .sm\:leading-3 {
@@ -23181,15 +23177,11 @@ video {
   }
 
   .md\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: DIN Pro, DIN, arial, helvetica, sans-serif;
   }
 
   .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Georgia, serif;
   }
 
   .md\:font-hairline {
@@ -23388,44 +23380,24 @@ video {
     height: 100vh;
   }
 
-  .md\:text-xs {
-    font-size: 0.75rem;
-  }
-
   .md\:text-sm {
-    font-size: 0.875rem;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .md\:text-base {
-    font-size: 1rem;
+    font-size: 18px;
+    line-height: 24px;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
+  .md\:text-large {
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .md\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-  }
-
-  .md\:text-6xl {
-    font-size: 4rem;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .md\:leading-3 {
@@ -32990,15 +32962,11 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: DIN Pro, DIN, arial, helvetica, sans-serif;
   }
 
   .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Georgia, serif;
   }
 
   .lg\:font-hairline {
@@ -33197,44 +33165,24 @@ video {
     height: 100vh;
   }
 
-  .lg\:text-xs {
-    font-size: 0.75rem;
-  }
-
   .lg\:text-sm {
-    font-size: 0.875rem;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .lg\:text-base {
-    font-size: 1rem;
+    font-size: 18px;
+    line-height: 24px;
   }
 
-  .lg\:text-lg {
-    font-size: 1.125rem;
+  .lg\:text-large {
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .lg\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-  }
-
-  .lg\:text-6xl {
-    font-size: 4rem;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .lg\:leading-3 {
@@ -42799,15 +42747,11 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: DIN Pro, DIN, arial, helvetica, sans-serif;
   }
 
   .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Georgia, serif;
   }
 
   .xl\:font-hairline {
@@ -43006,44 +42950,24 @@ video {
     height: 100vh;
   }
 
-  .xl\:text-xs {
-    font-size: 0.75rem;
-  }
-
   .xl\:text-sm {
-    font-size: 0.875rem;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .xl\:text-base {
-    font-size: 1rem;
+    font-size: 18px;
+    line-height: 24px;
   }
 
-  .xl\:text-lg {
-    font-size: 1.125rem;
+  .xl\:text-large {
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .xl\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .xl\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .xl\:text-5xl {
-    font-size: 3rem;
-  }
-
-  .xl\:text-6xl {
-    font-size: 4rem;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .xl\:leading-3 {
