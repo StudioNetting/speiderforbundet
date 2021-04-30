@@ -8,11 +8,12 @@
     "serve": "cross-env NODE_ENV=development concurrently \"postcss public/tailwind.css -o public/build/tailwind.css --watch\"  \"live-server ./public\"",
     "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
     "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css",
-    "start": "npm run serve"
+    "start": "node server"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "node": "^16.0.0",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "tailwindcss": "^1.7.2"
   },
   "devDependencies": {
