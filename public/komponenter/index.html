@@ -9,15 +9,15 @@
   <title>Norsk speiderforbund - Min speiding</title>
 </head>
 <body class="antialiased">
-	<div class="site relative min-h-screen md:flex flex-row">
+	<div class="site relative min-h-screen flex flex-col lg:flex lg:flex-row">
 
 		<!-- sidebar -->
-		<div class="sidebar bg-stifinner-darkest text-stifinner-lighter font-medium w-3/12 space-y-24 py-32 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
-			<a href="/" class="underline">Tilbake</a>
+		<div class="sidebar bg-stifinner-darkest text-stifinner-lighter font-medium w-3/12 space-y-24 py-32 absolute inset-y-0 left-0 transform -translate-x-full lg:relative lg:translate-x-0 transition duration-200 ease-in-out">
 		</div>
+
 		<!-- main -->
-		<div class="main flex flex-col grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 grid-flow-row w-full mx-16 place-content-start">
-			<header class="col-span-full p-10 font-bold">
+		<div class="main grid place-content-start mx-4 grid-cols-4 gap-3 md:grid-cols-8 md:mx-6 lg:grid-cols-12 lg:mx-16 lg:flex-grow">
+			<header class="col-span-full my-8 font-bold">
 
 				<!-- mobile menu button -->
 				<button class="mobile-menu-button z-50 text-stifinner-darkest p-4 focus:outline-none focus:bg-stifinner-darkest focus:text-stifinner-lighter md:hidden">
@@ -29,9 +29,10 @@
 				<h1>Komponenter</h1>
 
 			</header> 
+			<a href="/" class="underline">Tilbake</a>
 
 			<!-- content -->
-			<div class="content col-span-12 p-12 bg-vandrer-lighter border border-vandrer-light rounded-lg">
+			<div class="content col-span-full p-24 bg-vandrer-lighter border border-vandrer-light rounded-lg">
 				<h2>Arrangementskort</h2>
 				
 				<h2>Personkort</h2>
