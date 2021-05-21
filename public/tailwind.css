@@ -22,12 +22,18 @@
 		url(/fonts/DINPro.woff2) format("woff2");
 	}
 
+	body {
+		@apply text-stifinner-darkest;
+	}
+
 	h1 {
 		@apply text-xl;
 	}
 
 	h2 {
 		@apply text-large;
+		@apply font-medium;
+		@apply uppercase;
 	}
 
 	p {
