@@ -586,6 +586,7 @@ body {
 h1 {
   font-size: 36px;
   line-height: 40px;
+  font-weight: 700
 }
 
 h2 {
@@ -5798,7 +5799,7 @@ p {
   height: 100vh;
 }
 
-.text-sm {
+.text-small {
   font-size: 14px;
   line-height: 18px;
 }
@@ -5813,7 +5814,7 @@ p {
   line-height: 30px;
 }
 
-.text-xl {
+.text-xlarge {
   font-size: 36px;
   line-height: 40px;
 }
@@ -26294,7 +26295,7 @@ p {
     height: 100vh;
   }
 
-  .sm\:text-sm {
+  .sm\:text-small {
     font-size: 14px;
     line-height: 18px;
   }
@@ -26309,7 +26310,7 @@ p {
     line-height: 30px;
   }
 
-  .sm\:text-xl {
+  .sm\:text-xlarge {
     font-size: 36px;
     line-height: 40px;
   }
@@ -46620,7 +46621,7 @@ p {
     height: 100vh;
   }
 
-  .md\:text-sm {
+  .md\:text-small {
     font-size: 14px;
     line-height: 18px;
   }
@@ -46635,7 +46636,7 @@ p {
     line-height: 30px;
   }
 
-  .md\:text-xl {
+  .md\:text-xlarge {
     font-size: 36px;
     line-height: 40px;
   }
@@ -66946,7 +66947,7 @@ p {
     height: 100vh;
   }
 
-  .lg\:text-sm {
+  .lg\:text-small {
     font-size: 14px;
     line-height: 18px;
   }
@@ -66961,7 +66962,7 @@ p {
     line-height: 30px;
   }
 
-  .lg\:text-xl {
+  .lg\:text-xlarge {
     font-size: 36px;
     line-height: 40px;
   }
@@ -87272,7 +87273,7 @@ p {
     height: 100vh;
   }
 
-  .xl\:text-sm {
+  .xl\:text-small {
     font-size: 14px;
     line-height: 18px;
   }
@@ -87287,7 +87288,7 @@ p {
     line-height: 30px;
   }
 
-  .xl\:text-xl {
+  .xl\:text-xlarge {
     font-size: 36px;
     line-height: 40px;
   }
@@ -107598,7 +107599,7 @@ p {
     height: 100vh;
   }
 
-  .\32xl\:text-sm {
+  .\32xl\:text-small {
     font-size: 14px;
     line-height: 18px;
   }
@@ -107613,7 +107614,7 @@ p {
     line-height: 30px;
   }
 
-  .\32xl\:text-xl {
+  .\32xl\:text-xlarge {
     font-size: 36px;
     line-height: 40px;
   }

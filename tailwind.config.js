@@ -46,10 +46,10 @@ module.exports = {
       'serif': [ 'Georgia', 'serif'],
    },
    fontSize: {
-      sm: ['14px', '18px'],
+      small: ['14px', '18px'],
       base: ['18px', '24px'],
       large: ['24px', '30px'],
-      xl: ['36px', '40px'],
+      xlarge: ['36px', '40px'],
     }
   },
   variants: {},
