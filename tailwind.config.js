@@ -33,6 +33,7 @@ module.exports = {
       red: {
          light: '#EAB1B4', // Lys rød
       },
+      white: '#FFFFFF',
       event: {
          'course': '#B2E3EF', // Medium lederblå
          'camp': '#fceb96', // Lys småspeidergul
@@ -46,10 +47,10 @@ module.exports = {
       'serif': [ 'Georgia', 'serif'],
    },
    fontSize: {
-      sm: ['14px', '18px'],
+      small: ['14px', '16px'],
       base: ['18px', '24px'],
       large: ['24px', '30px'],
-      xl: ['36px', '40px'],
+      xlarge: ['36px', '40px'],
     }
   },
   variants: {},
