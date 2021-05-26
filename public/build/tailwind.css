@@ -584,14 +584,10 @@ body {
 }
 
 h1 {
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -5895,7 +5891,7 @@ p {
 
 .text-small {
   font-size: 14px;
-  line-height: 18px;
+  line-height: 16px;
 }
 
 .text-base {
@@ -26567,7 +26563,7 @@ p {
 
   .sm\:text-small {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
 
   .sm\:text-base {
@@ -47069,7 +47065,7 @@ p {
 
   .md\:text-small {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
 
   .md\:text-base {
@@ -67571,7 +67567,7 @@ p {
 
   .lg\:text-small {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
 
   .lg\:text-base {
@@ -88073,7 +88069,7 @@ p {
 
   .xl\:text-small {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
 
   .xl\:text-base {
@@ -108575,7 +108571,7 @@ p {
 
   .\32xl\:text-small {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
 
   .\32xl\:text-base {
