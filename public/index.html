@@ -84,12 +84,11 @@
 			</header> 
 
 			<!-- content -->
-			<div class="content col-span-full p-24 bg-vandrer-lighter border border-vandrer-light rounded-lg">
-				<!-- grid grid-cols-4 gap-3 my-4 mx-3 md:grid-cols-8 lg:grid-cols-12 lg:my-8 -->
-			</div>
-
-			<div class="grid grid-cols-4 gap-3 my-4 mx-3 md:grid-cols-8 lg:grid-cols-12 lg:my-8 p-24 bg-vandrer-lighter border border-vandrer-light rounded-lg">
-				<!-- grid grid-cols-4 gap-3 my-4 mx-3 md:grid-cols-8 lg:grid-cols-12 lg:my-8 -->
+			<div class="content-container bg-vandrer-lighter border border-vandrer-light rounded-lg grid grid-cols-4 gap-3 my-4 p-4 md:grid-cols-8 lg:grid-cols-12 lg:my-8 ">
+				<h2 class="col-span-full">Meldinger</h2>
+				<div class="border border-vandrer-light rounded-lg bg-white col-span-4 p-8"></div>
+				<div class="border border-vandrer-light rounded-lg bg-white col-span-4 p-8"></div>
+				<div class="border border-vandrer-light rounded-lg bg-white col-span-4 p-8"></div>
 			</div>
 
 		</div>
@@ -107,5 +106,6 @@ btnNav.addEventListener("click", () => {
   sidebar.classList.toggle("-translate-x-full");
   main.classList.toggle("pl-48");
   main.classList.toggle("md:pl-60");
+  main.classList.toggle("w-full");
 });
 </script>

@@ -33,6 +33,7 @@ module.exports = {
       red: {
          light: '#EAB1B4', // Lys rød
       },
+      white: '#FFFFFF',
       event: {
          'course': '#B2E3EF', // Medium lederblå
          'camp': '#fceb96', // Lys småspeidergul
