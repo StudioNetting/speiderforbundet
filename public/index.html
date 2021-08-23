@@ -12,43 +12,63 @@
 	<div class="site relative min-h-screen flex flex-col lg:flex lg:flex-row">
 
 		<!-- sidebar -->
-		<div class="sidebar bg-stifinner-darkest text-stifinner-lighter font-medium w-auto space-y-24 py-32 absolute inset-y-0 left-0 z-0 transform -translate-x-full lg:relative lg:translate-x-0 transition-all duration-300 ease-in-out">
-
+		<div class="sidebar bg-stifinner-darkest text-stifinner-lighter font-medium w-auto space-y-24 py-16 absolute inset-y-0 left-0 z-0 transform -translate-x-full lg:relative lg:translate-x-0 transition-all duration-300 ease-in-out">
+			<img class="ml-4" src="/images/icon-menu-logo.svg">
 			<!-- nav items -->
 			<nav class="w-48 md:w-60">
 				<ul class="space-y-6 text-small">
 					<li>
-						<a href="" class="flex px-2 hover:text-speider-profile">
-							<img class="w-5 h-5 mx-3" src="/images/tent-white.svg">
+						<a href="" class="group flex px-2 icon-light hover:text-speider-light">
+							<svg class="stroke-current w-5 h-5 mx-3" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M15.4943 1.68164L1.73988 20.0283C1.64103 20.1602 1.73511 20.3483 1.8999 20.3483H22.1001C22.2649 20.3483 22.359 20.1602 22.2601 20.0283L8.50565 1.68164" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
 							<span>Min speiding</span>
 						</a>
 					</li>
 					<li>
-						<a href="" class="flex px-2 hover:text-speider-profile">
-							<img class="w-5 h-5 mx-3" src="/images/tent-white.svg">
+						<a href="" class="flex px-2 hover:text-speider-light">
+							<svg class="fill-current w-5 h-5 mx-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6504 4.56445C10.5458 4.56445 9.65039 5.45988 9.65039 6.56445C9.65039 7.66902 10.5458 8.56445 11.6504 8.56445C12.755 8.56445 13.6504 7.66902 13.6504 6.56445C13.6504 5.45988 12.755 4.56445 11.6504 4.56445ZM7.65039 6.56445C7.65039 4.35531 9.44125 2.56445 11.6504 2.56445C13.8595 2.56445 15.6504 4.35531 15.6504 6.56445C15.6504 8.77359 13.8595 10.5645 11.6504 10.5645C9.44125 10.5645 7.65039 8.77359 7.65039 6.56445Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.6504 11.5645C16.0981 11.5645 15.6504 12.0122 15.6504 12.5645C15.6504 13.1167 16.0981 13.5645 16.6504 13.5645C17.2027 13.5645 17.6504 13.1167 17.6504 12.5645C17.6504 12.0122 17.2027 11.5645 16.6504 11.5645ZM13.6504 12.5645C13.6504 10.9076 14.9935 9.56445 16.6504 9.56445C18.3072 9.56445 19.6504 10.9076 19.6504 12.5645C19.6504 14.2213 18.3072 15.5645 16.6504 15.5645C14.9935 15.5645 13.6504 14.2213 13.6504 12.5645Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6504 10.5645C7.29338 10.5645 3.65748 13.6615 2.82813 17.7749C2.7885 17.9714 2.84399 18.1455 2.9816 18.2919C3.12853 18.4482 3.36825 18.5645 3.65041 18.5645H8.65041C9.20269 18.5645 9.65041 19.0122 9.65041 19.5645C9.65041 20.1167 9.20269 20.5645 8.65041 20.5645H3.65041C2.06268 20.5645 0.496667 19.2192 0.867586 17.3796C1.88143 12.3512 6.32258 8.56445 11.6504 8.56445C12.2027 8.56445 12.6504 9.01217 12.6504 9.56445C12.6504 10.1167 12.2027 10.5645 11.6504 10.5645Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M12.776 18.5645H20.5244C20.0808 16.8394 18.5136 15.5645 16.6502 15.5645C14.7869 15.5645 13.2197 16.8394 12.776 18.5645ZM10.726 18.6094C11.184 15.7494 13.661 13.5645 16.6502 13.5645C19.6394 13.5645 22.1164 15.7494 22.5745 18.6094C22.759 19.7618 21.7924 20.5645 20.8502 20.5645H12.4502C11.5081 20.5645 10.5414 19.7618 10.726 18.6094Z" />
+							</svg>
 							<span>Organisasjon</span>
 						</a>
 						<ul class="submenu my-3">
-							<li class="pl-16 py-3 bg-stifinner-darker hover:bg-stifinner-dark"><a href="">Min patrulje</a></li>
+							<li class="pl-16 py-3 bg-stifinner-darker hover:bg-stifinner-dark">
+								<span>
+									<svg class="inline-block mr-1" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.9786 6.09608C11.104 6.17441 11.104 6.35694 10.9786 6.43528L2.556 11.6994C2.42279 11.7826 2.25 11.6869 2.25 11.5298L2.25 1.00148C2.25 0.844388 2.42279 0.74862 2.556 0.831877L10.9786 6.09608Z" fill="white"/>
+									</svg>
+								</span>
+								<a href="#">Min patrulje</a>
+							</li>
 							<li class="pl-16 py-3 bg-stifinner-darker hover:bg-stifinner-dark"><a href="">Min tropp</a></li>
 							<li class="pl-16 py-3 bg-stifinner-darker hover:bg-stifinner-dark"><a href="">Min gruppe</a></li>
 						</ul>
 					</li>
 					<li>
-						<a href="" class="flex px-2 hover:text-speider-profile">
-							<img class="w-5 h-5 mx-3" src="/images/tent-white.svg">
+						<a href="" class="flex px-2 hover:text-speider-light">
+							<svg class="stroke-current w-5 h-5 mx-3" width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M17.3496 20.0146H5.34961C3.13961 20.0146 1.34961 18.1354 1.34961 15.8152V8.21412C1.34961 5.89391 3.13961 4.01465 5.34961 4.01465H17.3496C19.5596 4.01465 21.3496 5.89391 21.3496 8.21412V15.8152C21.3496 18.1354 19.5596 20.0146 17.3496 20.0146Z" stroke-width="2" stroke-miterlimit="10"/>
+								<path d="M1.58594 10.5244H21.1159" stroke-width="2" stroke-miterlimit="10"/>
+							</svg>
 							<span>Arrangement</span>
 						</a>
 					</li>
-					<li>
-						<a href="" class="flex px-2 hover:text-speider-profile">
-							<img class="w-5 h-5 mx-3" src="/images/tent-white.svg">
+					<!-- <li>
+						<a href="" class="flex px-2 hover:text-speider-light">
+							<img class="w-5 h-5 mx-3" src="">
 							<span>Merker</span>
 						</a>
-					</li>
+					</li> -->
 					<li>
-						<a href="" class="flex px-2 hover:text-speider-profile">
-							<img class="w-5 h-5 mx-3" src="/images/tent-white.svg">
+						<a href="" class="flex px-2 hover:text-speider-light">
+							<svg class="stroke-current w-5 h-5 mx-3" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="10.8763" cy="6.39001" r="3.62536" stroke-width="2"/>
+								<path d="M1.6403 18.4669C2.47905 14.1318 6.29624 10.8584 10.8758 10.8584C15.4554 10.8584 19.2726 14.1318 20.1113 18.4669C20.15 18.6668 20.0925 18.8441 19.9531 18.9921C19.8048 19.1494 19.5648 19.2655 19.2829 19.2655H2.46875C2.18682 19.2655 1.94676 19.1494 1.79851 18.9921C1.65911 18.8441 1.60164 18.6668 1.6403 18.4669Z" stroke-width="2"/>
+							</svg>
 							<span>Min profil</span>
 						</a>
 					</li>
@@ -59,7 +79,7 @@
 		<!-- main -->
 		<div class="main grid grid-cols-1 mx-2 transision-transform duration-300 md:mx-4 lg:mx-10 lg:flex-grow lg:transition-none lg:place-content-start">
 
-			<header class="items-start grid grid-cols-4 gap-5 my-4 px-6 md:grid-cols-8 lg:grid-cols-12 lg:my-8">
+			<header class="items-start grid grid-cols-4 gap-5 mt-8 px-6 md:grid-cols-8 lg:grid-cols-12 lg:mt-16">
 				<!-- mobile menu button -->
 				<button class="col-start-1 mobile-menu-button relative z-50 my-4 focus:outline-none lg:hidden">
 					<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -67,9 +87,8 @@
 					</svg>
 				</button>
 
-				<img class="inline row-start-2 col-start-1 w-12 h-12 lg:row-start-1" src="/images/logo-color.svg">
-				<h1 class="row-start-2 col-start-2 col-span-full text-medium lg:text-large lg:row-start-1">Min speiding</h1>
-				<p class=" row-start-3 col-start-2 col-span-full font-sans text-base lg:text-medium lg:row-start-2">Min patrulje: Oter</p>
+				<h1 class="row-start-2 col-start-1 col-span-full text-medium lg:text-large lg:row-start-1">Min speiding</h1>
+				<p class=" row-start-3 col-start-1 col-span-full font-sans text-base lg:text-medium lg:row-start-2">Min patrulje: Oter</p>
 
 				<div class="row-start-1 col-span-2 col-end-5 flex items-center justify-self-end md:col-end-9 lg:col-end-13 lg:row-start-1 lg:col-span-3">
 					<p class="font-sans font-medium text-xsmall text-right self-center mr-2">
