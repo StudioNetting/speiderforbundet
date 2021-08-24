@@ -13,7 +13,15 @@
 
 		<!-- sidebar -->
 		<div class="sidebar bg-stifinner-darkest text-stifinner-lighter font-medium w-auto space-y-24 py-16 absolute inset-y-0 left-0 z-0 transform -translate-x-full lg:relative lg:translate-x-0 transition-all duration-300 ease-in-out">
-			<img class="ml-4" src="/images/icon-menu-logo.svg">
+			<div class="flex justify-between items-center">
+				<img class="ml-4 stroke-current" src="/images/icon-menu-logo.svg">
+				<svg class="mr-4 stroke-current" width="41" height="26" viewBox="0 0 41 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M16.9697 5.13965L34.0322 5.13965" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+					<path d="M16.9697 20.8896L34.0322 20.8897" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+					<path d="M16.9697 13.0146L34.0322 13.0147" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+					<path d="M10.4168 16.9422L7.60805 13.1134C7.5564 13.043 7.5564 12.9472 7.60805 12.8768L10.4168 9.048" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+				</svg>
+			</div>
 			<!-- nav items -->
 			<nav class="w-48 md:w-60">
 				<ul class="space-y-6 text-small">
@@ -79,7 +87,7 @@
 		<!-- main -->
 		<div class="main grid grid-cols-1 mx-2 transision-transform duration-300 md:mx-4 lg:mx-10 lg:flex-grow lg:transition-none lg:place-content-start">
 
-			<header class="items-start grid grid-cols-4 gap-5 mt-8 px-6 md:grid-cols-8 lg:grid-cols-12 lg:mt-16">
+			<header class="items-start grid grid-cols-4 gap-y-6 mt-8 lg:px-6 md:grid-cols-8 lg:grid-cols-12 lg:gap-y-2 lg:mt-16">
 				<!-- mobile menu button -->
 				<button class="col-start-1 mobile-menu-button relative z-50 my-4 focus:outline-none lg:hidden">
 					<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -87,13 +95,16 @@
 					</svg>
 				</button>
 
-				<h1 class="row-start-2 col-start-1 col-span-full text-medium lg:text-large lg:row-start-1">Min speiding</h1>
-				<p class=" row-start-3 col-start-1 col-span-full font-sans text-base lg:text-medium lg:row-start-2">Min patrulje: Oter</p>
+				<h1 class="row-start-2 col-span-full font-sans font-normal text-base lg:font-bold lg:text-medium lg:text-large lg:row-start-1">
+					Organisasjon
+					<span class="lg:hidden"><span class="px-1">/</span>Min patrulje: Hare</span>
+				</h1>
+				<p class="hidden col-start-1 row-start-2 col-span-full font-sans text-medium lg:inline-block ">Min patrulje: Hare</p>
 
 				<div class="row-start-1 col-span-2 col-end-5 flex items-center justify-self-end md:col-end-9 lg:col-end-13 lg:row-start-1 lg:col-span-3">
 					<p class="font-sans font-medium text-xsmall text-right self-center mr-2">
 						Thomas Hansen
-						<span class="block">Oter</span>
+						<span class="block">Speider</span>
 					</p>
 					<img class="col-start-2 w-12 h-12 rounded-full" src="/images/unsplash-avatar.jpg">
 				</div>
@@ -101,11 +112,12 @@
 			</header> 
 
 			<!-- content -->
-			<div class="content-container bg-vandrer-lighter border border-vandrer-light rounded-lg grid grid-cols-4 gap-5 my-4 px-6 py-12 md:grid-cols-8 lg:grid-cols-12 lg:my-8 ">
-				<h2 class="col-span-full text-medium">Meldinger</h2>
-				<div class="border border-vandrer-light rounded-lg bg-white col-span-4 p-8"></div>
-				<div class="border border-vandrer-light rounded-lg bg-white col-span-4 p-8"></div>
-				<div class="border border-vandrer-light rounded-lg bg-white col-span-4 p-8"></div>
+			<div class="content-container bg-vandrer-lighter border border-vandrer-light rounded-lg grid grid-cols-4 gap-5 my-8 px-6 py-12 md:grid-cols-8 lg:grid-cols-12 lg:my-12 ">
+				<h2 class="col-span-full text-base lg:text-medium">Ledere</h2>
+				<div class="border border-vandrer-light rounded-lg bg-white col-span-3 p-8"></div>
+				<div class="border border-vandrer-light rounded-lg bg-white col-span-3 p-8"></div>
+				<div class="border border-vandrer-light rounded-lg bg-white col-span-3 p-8"></div>
+				<div class="border border-vandrer-light rounded-lg bg-white col-span-3 p-8"></div>
 			</div>
 
 		</div>
