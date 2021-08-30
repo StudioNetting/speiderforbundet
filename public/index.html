@@ -13,8 +13,8 @@
 
 		<!-- sidebar -->
 		<div class="sidebar bg-stifinner-darkest text-stifinner-lighter py-10 font-medium w-auto space-y-24 lg:py-16 absolute inset-y-0 left-0 z-0 transform -translate-x-full lg:relative lg:translate-x-0 transition-all duration-300 ease-in-out">
-			<div class="flex justify-between items-center">
-				<img class="ml-4 stroke-current" src="/images/icons/icon-logo.svg">
+			<div class="flex justify-between items-center hover:text-speider-light">
+				<img class="ml-4" src="/images/icons/icon-logo.svg">
 				<svg class="button-close mr-4 stroke-current" width="41" height="26" viewBox="0 0 41 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M16.9697 5.13965L34.0322 5.13965" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
 					<path d="M16.9697 20.8896L34.0322 20.8897" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -114,12 +114,35 @@
 			</header> 
 
 			<!-- content -->
-			<div class="content-container bg-vandrer-lighter border border-vandrer-light rounded-lg grid grid-cols-4 gap-5 my-8 px-6 py-12 md:grid-cols-8 lg:grid-cols-12 lg:my-12 ">
-				<h2 class="col-span-full text-base lg:text-medium">Ledere</h2>
-				<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
-				<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
-				<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
-				<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
+			<div class="content-container bg-vandrer-lighter border border-vandrer-light rounded-lg grid grid-cols-4 gap-5 my-8 py-8 md:grid-cols-8 lg:grid-cols-12 lg:my-12 ">
+				<div class="view pb-5 mb-8 col-span-full flex border-vandrer-light border-b-2 text-xsmall uppercase">
+					<div class="flex items-center mr-8 mx-6">
+						<svg class="stroke-1" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="2" y="2.00781" width="19" height="3.5625" rx="0.2" stroke="#192028" />
+							<rect x="2" y="10.3203" width="19" height="3.5625" rx="0.2" stroke="#192028"/>
+							<rect x="2" y="18.6328" width="19" height="3.5625" rx="0.2" stroke="#192028"/>
+						</svg>
+						<span class="ml-1">Liste</span>
+					</div>
+	
+					<div class="flex items-center"> 
+						<svg class="stroke-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="2.4043" y="14.1777" width="7.49474" height="7.5" rx="0.2" stroke="#192028" stroke-width="2"/>
+							<rect x="2.4043" y="2.52539" width="7.49474" height="7.5" rx="0.2" stroke="#192028" stroke-width="2"/>
+							<rect x="14.0586" y="2.52539" width="7.49474" height="7.5" rx="0.2" stroke="#192028" stroke-width="2"/>
+							<rect x="14.0586" y="14.1777" width="7.49474" height="7.5" rx="0.2" stroke="#192028" stroke-width="2"/>
+						</svg>
+						<span class="ml-1">Rutenett</span>
+					</div>
+				</div>
+				<h2 class="mx-6 col-span-full text-base lg:text-medium">Ledere</h2>
+				<p class="mx-6 col-span-full text-small lg:hidden">(hele containeren skal skyves off-canvas når menyen åpnes, ikke tilpasse seg skjermbredden)</p>
+				<div class="cards mx-6 col-span-full grid grid-cols-4 gap-5 md:grid-cols-8 lg:grid-cols-12">
+					<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
+					<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
+					<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
+					<div class="border border-vandrer-light rounded-lg bg-white col-span-full p-8 md:col-span-2 lg:col-span-3"></div>
+				</div>
 			</div>
 
 		</div>
